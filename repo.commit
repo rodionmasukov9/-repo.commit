@@ -1,0 +1,4 @@
+ repo.commit(args.slice(1).join(' '));
+      break;
+    case 'branch':
+      repo.branch(args[1]);
